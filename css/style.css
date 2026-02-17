@@ -7,10 +7,11 @@ body {
   font-family:
     arial,
     sans serif;
+    width: 100vw;
 }
 
 main {
-  width: 100vw;
+  width: 150vw;
 }
 
 header {
@@ -28,7 +29,7 @@ header {
   align-items: center;
   padding: 5px;
   flex-direction: row;
-  max-width: 1300px;
+  max-width: 1340px;
   border-bottom: 1px solid gray;
 }
 .navigation a {
