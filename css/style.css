@@ -1,7 +1,9 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  padding: 0px;
-  margin: 0px;
   font-family:
     arial,
     sans serif;
@@ -26,8 +28,8 @@ header {
   align-items: center;
   padding: 5px;
   flex-direction: row;
-  max-width: 1340px;
-  /* border: 2px solid red; */
+  max-width: 1300px;
+  border-bottom: 1px solid gray;
 }
 .navigation a {
   color: rgb(152, 150, 150);
@@ -44,7 +46,7 @@ header {
   align-items: center;
 }
 .hero {
-  width: 100%;
+  width: 80%;
   background-color: #212529;
   margin: 0 auto;
   padding-top: 100px;
